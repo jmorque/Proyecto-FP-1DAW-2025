@@ -1,0 +1,193 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*** Body ***/
+
+body {
+    background-size: cover;
+    background-position: center center;
+    background-attachment: relative;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: 0;
+}
+
+html,body {
+    width: 100%;
+    height: 100%;
+}
+
+/*** Header ***/
+
+header {
+    height: 200px;
+    background-color: cornflowerblue;
+    text-align: center;
+    padding: 20px;
+    width: 100%;
+}
+
+#Logotipo {
+    height: 100px;
+    display: block; 
+    margin-right: auto;
+    margin-left: 0; 
+}
+
+.header , h1 {
+    position: relative;
+    text-align: center;
+    font-family: 'Shafarik', sans-serif;
+    font-size: 40px;
+    z-index: 100;
+    color: white;
+}
+
+/*** Nav ***/
+
+nav {
+    position: relative;
+    top: -150px;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    z-index: 100;
+    display: block;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    gap: 5px;
+    z-index: 100;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+nav a {
+    text-decoration: none;
+    font-size: 18px;
+    padding: 10px 20px;
+    border: 2px solid #ddd;
+    border-radius: 10px;
+    background-color: white;
+    transition: all 0.3s ease-in-out;
+    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.1);
+}
+
+nav a:hover {
+    transform: scale(0.98);
+}
+
+/*** Main ***/
+    
+main {
+    display: flex; 
+    flex-wrap: wrap; 
+    justify-content: center; 
+    gap: 80px; 
+    padding: 80px; 
+    background-color: #f0f0f0;
+    z-index: 100;
+}
+
+/*** Article ***/
+
+.detalle1 article {
+    background-color: #ffffff; 
+    border-radius: 8px; /* Bordes ligeramente redondeados */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra suave para un efecto elevado */
+    padding: 60px; 
+    width: 580px; 
+    min-height: 120px; /* Altura mínima para que tengan un tamaño consistente */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; /* Empuja el h3 hacia arriba y el p hacia abajo */
+    align-items: flex-start; /* Alinea el texto a la izquierda */
+    transition: transform 0.2s ease-in-out; 
+    cursor: pointer; 
+    z-index: 100;
+}
+
+#Feria {
+    height: 100px;
+    margin-left: 300px;
+    bottom:  80px;
+    position: relative;
+
+}
+
+.detalle2 article {
+    background-color: #ffffff; 
+    border-radius: 8px; /* Bordes ligeramente redondeados */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra suave para un efecto elevado */
+    padding: 60px; 
+    width: 580px; 
+    min-height: 120px; /* Altura mínima para que tengan un tamaño consistente */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; /* Empuja el h3 hacia arriba y el p hacia abajo */
+    align-items: flex-start; /* Alinea el texto a la izquierda */
+    transition: transform 0.2s ease-in-out; 
+    cursor: pointer; 
+    z-index: 100;
+}
+
+#Taller {
+    height: 200px;
+    margin-left: 330px;
+    bottom:  100px;
+    position: relative;
+}
+
+.detalle3 article {
+    background-color: #ffffff; 
+    border-radius: 8px; /* Bordes ligeramente redondeados */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra suave para un efecto elevado */
+    padding: 60px; 
+    width: 580px; 
+    min-height: 120px; /* Altura mínima para que tengan un tamaño consistente */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; /* Empuja el h3 hacia arriba y el p hacia abajo */
+    align-items: flex-start; /* Alinea el texto a la izquierda */
+    transition: transform 0.2s ease-in-out; 
+    cursor: pointer; 
+    z-index: 100;
+}
+
+#Conferencia {
+    height: 150px;
+    margin-left: 330px;
+    bottom:  100px;
+    position: relative;
+}
+
+.detalle4 article {
+    background-color: #ffffff; 
+    border-radius: 8px; /* Bordes ligeramente redondeados */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra suave para un efecto elevado */
+    padding: 60px; 
+    width: 580px; 
+    min-height: 120px; /* Altura mínima para que tengan un tamaño consistente */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; /* Empuja el h3 hacia arriba y el p hacia abajo */
+    align-items: flex-start; /* Alinea el texto a la izquierda */
+    transition: transform 0.2s ease-in-out; 
+    cursor: pointer; 
+    z-index: 100;
+}
+
+#Foro {
+    height: 150px;
+    margin-left: 300px;
+    bottom:  100px;
+    position: relative;
+}
