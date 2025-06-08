@@ -1,0 +1,364 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*** Body ***/
+body {
+    background-color: cornflowerblue;
+    background-image: url(/images/ImagenHeader.png);
+    background-size: cover;
+    background-position: center center;
+    background-attachment: relative;
+    margin: 0;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+html, body{
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+    background-color: cornflowerblue;
+}
+
+/*** Header ***/
+
+header {
+    position: relative;
+    height: 980px;
+    margin: 0;
+    padding: 0;
+    background-color: cornflowerblue;
+}
+
+#ImagenHeader {
+    top: 0px;
+    position: relative;
+    width: 100%;
+    height: 400px;
+}
+
+#Logotipo {
+    top: -1200px;
+    position: relative;
+    height: 100px;
+    display: block;
+    margin-right: auto;
+    z-index: 100;
+}
+
+#SegundaImagenHeader {
+
+    position: relative;
+    top: -110px;
+    align-items: center;
+    width: 100%;
+    height: 850px;
+    z-index: 100;
+    background-color: cornflowerblue;
+    
+    
+}
+
+/*** Div ***/
+
+div {
+    overflow: hidden;
+    width: 100%;
+    height: auto;
+    position: relative;
+    background-color: cornflowerblue;
+    box-sizing: border-box;
+}
+
+.carrusel {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    flex-wrap: wrap;
+    align-items: center;
+    background-color: cornflowerblue;
+}
+
+.carrusel h2 {
+    font-size: 5rem;
+    color: white;
+    margin-bottom: 10px;
+    font-family: 'Shafarik', sans-serif;
+}
+
+.carrusel p {
+    font-size: 1.5rem;
+    color: white;
+    font-weight: bold;
+    margin-bottom: 10px;
+    font-family: 'Shafarik', sans-serif;
+}
+
+.eventos {
+    display: flex;
+    gap: 5px;
+    overflow-x: auto;
+    white-space: nowrap;
+    
+}
+
+.imagen-con-texto {
+    position: relative;
+    width: 500px;
+    height: 350px;
+    flex-shrink: 0;
+}
+
+.imagen-con-texto img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+    transition: 0.3s ease-in-out;
+}
+
+.texto-hover {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+    font-size: 25px;
+    padding: 10px;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+}
+
+.imagen-con-texto:hover .texto-hover {
+    opacity: 1;
+}
+
+.imagen-con-texto:hover img {
+    filter: brightness(0.7);
+}
+
+/*** Section ***/
+
+.titulo h1{
+  top: -540px;
+  position: relative;
+  text-align: center;
+  font-family: 'Shafarik', sans-serif;
+  font-size: 35px;
+  z-index: 100;
+  color: white;
+}
+
+.titulo p {
+    top: -530px;
+    position: relative;
+    text-align: center;
+    font-family: 'Shafarik', sans-serif;
+    font-size: 70px;
+    z-index: 100;
+    color: white;
+}
+
+section img {
+    top: 0%;
+    position: relative;
+    background-position: 0%;
+    overflow: hidden;
+    width: 100%;
+    height: auto;
+    margin: 0px;
+    background-position: bottom;
+    background-color: cornflowerblue;
+}
+
+.presentacion {
+    font-size: 35px;
+    color: white;
+    position: relative;
+    font-family: 'Shafarik', sans-serif;
+    background-color: cornflowerblue;
+}
+
+section {
+    background-color: cornflowerblue;
+}
+
+/*** Footer ***/
+
+footer div {
+    background-color: cornflowerblue;
+    overflow: visible;
+    width: 100%;
+    height: 15px;
+}
+
+.columnas .columna {
+    color: white;
+    font-family: 'Shafarik', sans-serif;
+    font-size: 25px;
+    top: 90px;
+    left: 100px;
+    width: 33%;
+}
+
+.columnas .columna3 {
+    color: white;
+    font-family: 'Shafarik', sans-serif;
+    font-size: 25px;
+    left: 1500px;
+    top: 60px;
+    width: 33%;
+}
+
+.columnas .columna2 {
+ font-size: 25px;
+ left: 820px;
+ color: white;
+ font-family: 'Shafarik', sans-serif;
+ gap: 20px;
+ width: 33%;
+ top: 80px;
+}
+
+#Facebook {
+    z-index: 100;
+    top: 40px;
+    position: relative;
+    overflow: hidden;
+    width: 60px;
+    height: auto;
+    left: 100px;
+    display: flex;
+    gap: 20px;
+    display: inline-block;
+    padding: 0;
+}
+
+#instagram {
+    z-index: 100;
+    top: 40px;
+    position: relative;
+    overflow: hidden;
+    width: 60px;
+    height: auto;
+    right: -150px;
+    display: flex;
+    gap: 20px;
+    display: inline-block;
+    padding: 0;
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat;
+}
+
+#twitter {
+    z-index: 100;
+    top: 40px;
+    position: relative;
+    overflow: hidden;
+    width: 60px;
+    height: auto;
+    left: -120px;
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    display: flex;
+    gap: 20px;
+    display: inline-block;
+    padding: 0;
+}
+
+#asistencia {
+    color: white;
+    text-decoration: none;
+    top: -200px;
+    font-size: 25px;
+}
+
+#acercade {
+    color: white;
+    text-decoration: none;
+    top: -200px;
+    font-size: 25px;
+}
+
+#contacta {
+    color: white;
+    text-decoration: none;
+    top: -200px;
+    font-size: 25px;
+}
+
+#primera {
+    top: -100px;
+    position: relative;
+    width: 700px;
+    height: auto;
+    left: 1100px;
+    z-index: 1;
+}
+
+#segunda {
+    top: 150px;
+    right: 700px;
+    position: relative;
+    width: 700px;
+    height: auto;
+    object-fit: cover;
+    z-index: 1;
+}
+
+#tercera {
+    z-index: 1;
+    top: 10px;
+    position: relative;
+    width: 700px;
+    height: auto;
+    left: 1100px;
+}
+
+
+/*** Nav ***/
+
+nav {
+    color: brown;
+    margin-top: 155px;
+    text-align: center;
+    top: -1500px;
+    z-index: 100;
+    position: relative;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    gap: 5px;
+    z-index: 100;
+}
+
+nav a {
+    text-decoration: none;
+    font-size: 18px;
+    padding: 10px 20px;
+    border: 2px solid #ddd;
+    border-radius: 10px;
+    background-color: white;
+    transition: all 0.3s ease-in-out;
+    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.1);
+}
+
+nav a:hover {
+    background-color: cornflowerblue;
+    transform: scale(0.98);
+}
+
+main {
+    background-color: cornflowerblue;
+}
